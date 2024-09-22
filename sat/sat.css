@@ -1,0 +1,44 @@
+.top{
+    display: flex;
+    height: 88px;
+}
+.top div{
+    margin: auto 0;
+    text-align: center;
+    width: 100%;
+}
+.content{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs span{
+    margin-top: 20px;
+}
+.inputs span label{
+    font-size: 18px;
+}
+.inputs span input{
+    height:32px;
+    padding-left: 10px;
+}
+.submit{
+    margin-top: 20px;
+    width: 64px;
+    height: 24px;
+}
+.result{
+    text-align: center;
+    width: 40%;
+    height: 70vh;
+    border: 1px solid black;
+    border-radius: 100px;
+
+}
+.result p{
+    margin-top: 10px;
+}
